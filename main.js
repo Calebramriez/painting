@@ -26,6 +26,7 @@ function my_mousemove(e){
         ctx.lineWidth=width;
         ctx.moveTo(last_x,last_y);
         ctx.lineTo(current_x,current_y);
+        ctx.stroke();
     }
     last_x=current_x;
     last_y=current_y;
